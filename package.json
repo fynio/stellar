@@ -1,0 +1,21 @@
+{
+  "name": "primeratransaccionstellar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-pair":"node utils/create-pair.js",
+    "check-balance":"node utils/check-balance.js",
+    "check-recipient-balance":"node utils/check-recipient-balance.js",
+    "send-transaction":"node utils/send-transaction.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "stellar-sdk": "^6.2.0"
+  }
+}
